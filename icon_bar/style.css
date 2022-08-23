@@ -1,0 +1,30 @@
+.icon-bar {
+  background-color: #555;
+  max-width: fit-content;
+  border-radius: 25px;
+  padding: 5px;
+}
+.icon-bar a {
+  display: block;
+  padding: 20px;
+  margin: 5px;
+  transition: all 0.3 ease;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+.icon-bar a:hover {
+  background-color: black;
+  border-radius: 25px;
+}
+
+.active {
+  background-color: #04aa6d;
+  border-radius: 25px;
+}
+
+#hor {
+  display: flex;
+  margin-top: 25px;
+  border-radius: 25px;
+}
